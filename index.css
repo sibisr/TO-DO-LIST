@@ -48,7 +48,7 @@ ul li {
     font-size: 18px;
     transition: 1.5s;
     border-radius: 25px;
-    font-family:cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     align-items: center;
 }
