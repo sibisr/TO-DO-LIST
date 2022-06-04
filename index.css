@@ -4,6 +4,7 @@
     box-sizing: content-box;
     margin: 0 auto;
     background-color: black;
+    user-select: none;
 }
 
 /* Remove margins and padding from the list */
