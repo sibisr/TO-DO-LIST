@@ -39,7 +39,7 @@ ul li {
     background: gray;
     text-align: left;
     word-wrap: break-word;
-    width: fit-content;
+    width: 50%;
     margin:15px;
     cursor: crosshair;
     position: relative;
