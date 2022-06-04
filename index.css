@@ -39,8 +39,8 @@ ul li {
     background: gray;
     text-align: left;
     word-wrap: break-word;
-    width: 50%;
-    margin: 1%;
+    width: fit-content;
+    margin:15px;
     cursor: crosshair;
     position: relative;
     padding: 12px 0.48px 12px 14px;
