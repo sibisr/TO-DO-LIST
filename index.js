@@ -4,7 +4,7 @@ function addList() {
 
     var check = document.getElementById('myInput').value;
 
-    var emp = ("  " + " -" + " ");
+    var emp = ('\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0'+"  " + " -" + " ");
 
     if (check == "") {
         alert("Enter The Task First");
@@ -32,8 +32,6 @@ function addList() {
     itemText.after(d.toLocaleString());
 
     document.getElementById('myUL').appendChild(listItem);
-
-    console.log(listItem);
 
     document.getElementById('myInput').value = '';
 
