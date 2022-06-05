@@ -4,9 +4,6 @@
     box-sizing: content-box;
     margin: 0 auto;
     background-color: black;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
     user-select: none;
 }
 
@@ -22,7 +19,7 @@ h1 {
     font-size: 50px;
     width: 100%;
     text-shadow: 20;
-    margin: 1rem 0 3rem;
+    margin: 16px 0 48px;
     text-align: center;
     color: lime;
     font-family: 'Dancing Script', cursive;
