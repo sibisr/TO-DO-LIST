@@ -2,9 +2,9 @@
 ToDo list is a simple web application to save Your daily tasks in order not to miss anything.
 
 ### Features:
-* Pick a date from callendar
+* Picks current date and time from callendar
 * Add new task
-* Mark task as completed / uncompleted
+* Mark task as completed / incompleted
 * Delete multiple completed task
 
 ### Technologies used:
