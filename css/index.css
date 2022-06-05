@@ -1,0 +1,150 @@
+/* Include the padding and border in an element's total width and height */
+
+* {
+    box-sizing: content-box;
+    margin: 0 auto;
+    background-color: black;
+    user-select: none;
+}
+
+/* Remove margins and padding from the list */
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: -webkit-center;
+}
+
+h1 {
+    font-size: 50px;
+    width: 100%;
+    text-shadow: 20;
+    margin: 16px 0 48px;
+    text-align: center;
+    color: lime;
+    font-family: 'Dancing Script', cursive;
+}
+h1:hover{
+    color: white;
+   text-decoration:line-through;
+}
+
+
+/* Style the list items */
+
+ul li {
+    background: gray;
+    text-align: left;
+    word-wrap: break-word;
+    width: 50%;
+    margin:15px;
+    cursor: crosshair;
+    position: relative;
+    padding: 12px 0.48px 12px 14px;
+    background: gray;
+    font-size: 18px;
+    transition: 1.5s;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    align-items: center;
+}
+
+ul li:hover {
+    background-color: lime;
+    font-style: italic;
+}
+
+
+/* Style the header */
+
+.header {
+    text-align: center;
+}
+
+
+/* Style the input */
+
+input {
+    padding: 8px 16px;
+    height: 30px;
+    outline: none;
+    border: none;
+    position: relative;
+    animation-fill-mode: forwards;
+    background: gray;
+    color: black;
+    font-size: 100%;
+    width: 35%;
+    margin: 10px;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+input:hover {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+input[type="checkbox" i] {
+    cursor: crosshair;
+    box-sizing: border-box;
+    margin: 0 10px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    accent-color: red;
+}
+
+
+/* Style the input-placeholder */
+
+::placeholder {
+    color: black;
+}
+
+
+/* Style the "Add" button */
+
+.addBtn {
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    width: 15%;
+    background: gray;
+    color: black;
+    float: inline-end;
+    font-size: 16px;
+    font-style: italic;
+    transition: 0.7s;
+    border-radius: 20px;
+}
+
+.addBtn:hover {
+    background-color: lime;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* Style the "Delete" button */
+
+.delBtn {
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    width: 15%;
+    background: gray;
+    color: black;
+    float: inline-end;
+    font-size: 16px;
+    transition: 0.7s;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+.delBtn:hover {
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
