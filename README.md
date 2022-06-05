@@ -13,7 +13,7 @@ ToDo list is a simple web application to save Your daily tasks in order not to m
 * JavaScript
 
 ### Library used:
-* Google font
+* Google Font
 
 ### App demo
  https://sibisr.github.io/TO-DO-LIST/
