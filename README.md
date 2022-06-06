@@ -27,4 +27,5 @@ ToDo list is a simple web application to save Your daily tasks in order not to m
 
 ### Gif:
 
+
 ![20220606_144811](https://user-images.githubusercontent.com/84224170/172133552-b7cbff90-36ec-4486-a1cb-abfd44420572.gif)
