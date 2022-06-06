@@ -15,10 +15,10 @@ ToDo list is a simple web application to save Your daily tasks in order not to m
 ### Library used:
 * Google Font
 
-### App demo
+### App demo:
  https://sibisr.github.io/TO-DO-LIST/
  
-### Screenshot
+### Screenshot:
 ![SAMPLE1](https://user-images.githubusercontent.com/84224170/172087973-285b905b-115d-472d-a8bb-db3da76f927f.jpg)
 
 ![SAMPLE2](https://user-images.githubusercontent.com/84224170/172088008-f5cc45dc-8bb3-4209-b545-77c4588954f9.jpg)
