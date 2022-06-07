@@ -22,11 +22,13 @@ h1 {
     margin: 16px 0 48px;
     text-align: center;
     color: lime;
+    transition: 0.7s;
     font-family: 'Dancing Script', cursive;
 }
 h1:hover{
     color: white;
-   text-decoration:line-through;
+    text-decoration:line-through;
+    letter-spacing: 4px;
 }
 
 
@@ -125,6 +127,7 @@ input[type="checkbox" i] {
 .addBtn:hover {
     background-color: lime;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
 }
 
 
@@ -147,4 +150,5 @@ input[type="checkbox" i] {
 .delBtn:hover {
     background-color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
 }
