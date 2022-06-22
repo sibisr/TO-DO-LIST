@@ -47,6 +47,7 @@ function deleteCheckBox() {
     for (var i = 0; i < li.length; i++) {
         while (li[i] && li[i].children[0].checked) {
             ul.removeChild(li[i]);
+            
         }
     }
 }
